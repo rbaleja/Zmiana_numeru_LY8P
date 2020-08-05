@@ -152,9 +152,9 @@ void LY8ID::Save_log_File()
     unsigned char elf_Mi = pc_Dane.at(2567);
     unsigned char elf_Lo = pc_Dane.at(2568);
 
-    //qDebug() << elf_Hi;
-    //qDebug() << elf_Mi;
-    //qDebug() << elf_Lo;
+    qDebug() << elf_Hi;
+    qDebug() << elf_Mi;
+    qDebug() << elf_Lo;
 
 
     ID++;
